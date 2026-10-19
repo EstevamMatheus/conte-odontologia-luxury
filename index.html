@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Syne:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;scroll-behavior:smooth;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#8a5b00","on-primary-fixed":"#231b00","on-primary-container":"#746329","surface-bright":"#3a3939","primary-container":"#f9e19b","on-secondary":"#402d00","error":"#ffb4ab","on-secondary-fixed-variant":"#5c4300","on-tertiary-fixed-variant":"#624000","secondary-container":"#c59300","tertiary-container":"#ffddb2","surface-container-highest":"#353534","surface-variant":"#353534","on-primary":"#3c2f00","surface-dim":"#131313","surface-container-lowest":"#0e0e0e","inverse-primary":"#6e5d24","primary-fixed-dim":"#dbc581","background":"#131313","on-surface-variant":"#cec6b5","error-container":"#93000a","on-background":"#e5e2e1","on-error":"#690005","surface-container-low":"#1c1b1b","on-error-container":"#ffdad6","tertiary-fixed":"#ffddb2","surface-tint":"#dbc581","primary-fixed":"#f9e19b","on-surface":"#e5e2e1","on-secondary-fixed":"#261a00","surface-container":"#201f1f","inverse-surface":"#e5e2e1","secondary-fixed":"#ffdfa0","on-secondary-container":"#433000","surface-container-high":"#2a2a2a","tertiary":"#ffffff","on-tertiary":"#452b00","tertiary-fixed-dim":"#f9bb61","on-primary-fixed-variant":"#54450e","on-tertiary-fixed":"#291800","secondary":"#f6be39","outline":"#979081","primary":"#ffffff","surface":"#131313","inverse-on-surface":"#313030","secondary-fixed-dim":"#f6be39","outline-variant":"#4b463a"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"1rem","margin":"3rem","space-md":"1rem","space-xs":"0.25rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-xl":"3rem","space-sm":"0.5rem","space-lg":"1.75rem"},"fontFamily":{"headline-xl":["Syne"],"body-md":["Inter"],"label-regular":["Inter"],"headline-xl-mobile":["Syne"],"body-lg":["Inter"],"title-sm":["Syne"],"display-hero":["Syne"],"headline-md":["Syne"],"label-caps":["Inter"],"headline-lg":["Syne"],"display-hero-mobile":["Syne"],"body-sm":["Inter"]},"fontSize":{"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"label-regular":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-xl-mobile":["30px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"400"}],"title-sm":["18px",{"lineHeight":"24px","letterSpacing":"0.02em","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"0em","fontWeight":"500"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.14em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"500"}],"display-hero-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface-container-lowest font-body-md text-body-md text-on-surface antialiased selection:bg-secondary selection:text-on-secondary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl border-b border-secondary/20 shadow-[0_4px_24px_rgba(0,0,0,0.8)]"><div class="h-20 w-full px-margin flex items-center justify-between"><a class="flex items-center gap-space-sm group focus:outline-none" data-path="home" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="assets/images/logo.png"/><div class="flex flex-col"><span class="font-title-sm text-title-sm tracking-tight text-on-surface uppercase group-hover:text-secondary transition-colors">Con Te</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Odontologia Especializada</span></div></a><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-secondary border-b-2 border-secondary"><a class="font-label-caps text-label-caps text-on-surface-variant uppercase hover:text-on-surface transition-colors py-space-xs" data-path="a-clinica" href="#clinica">A clínica</a><a class="font-label-caps text-label-caps text-on-surface-variant uppercase hover:text-on-surface transition-colors py-space-xs" data-path="especialidades" href="#especialidades">Especialidades</a><a class="font-label-caps text-label-caps text-on-surface-variant uppercase hover:text-on-surface transition-colors py-space-xs" data-path="nossa-equipe" href="#equipe">Nossa equipe</a><a class="font-label-caps text-label-caps text-on-surface-variant uppercase hover:text-on-surface transition-colors py-space-xs" data-path="contato-e-localizacao" href="#contato">Contato e localização</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center bg-gradient-to-r from-secondary to-primary-fixed text-on-secondary font-label-caps text-label-caps uppercase px-space-lg py-space-sm shadow-[0_0_24px_-4px_rgba(246,190,57,0.3)] hover:brightness-110 active:brightness-95 transition-all" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">Agendar avaliação</a><a class="sm:hidden flex items-center justify-center p-space-sm text-secondary hover:text-on-surface transition-colors" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined">chat</span></a></div></div></header><main class="w-full pt-20 bg-surface-container-lowest min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- ==========================================
+       SEÇÃO 1: A CLÍNICA (HERO & IDENTIDADE INTEGRADA)
+       ========================================== -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl" id="clinica">
+<!-- Ambient Golden Glow -->
+<div class="pointer-events-none absolute -top-40 right-0 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[140px]"></div>
+<div class="pointer-events-none absolute top-1/2 left-0 w-[350px] h-[350px] bg-secondary-container/5 rounded-full blur-[120px]"></div>
+<div class="w-full px-margin-mobile md:px-margin max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Top Badge / Overline -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm border-b border-outline-variant/30 pb-space-sm">
+<div class="flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-sm">hotel_class</span>
+<span class="font-label-caps text-label-caps tracking-[0.25em] uppercase text-secondary">Odontologia de Alta Precisão • Mauá - SP</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant tracking-wider hidden sm:inline-block">ESTRUTURA MONOLÍTICA • 2025</span>
+</div>
+<!-- Main Editorial Headline Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<h1 class="font-display-hero text-headline-xl md:text-display-hero text-on-surface uppercase tracking-tight leading-[1.08]">
+            Seu sorriso <br class="hidden sm:inline"/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary-fixed via-secondary to-primary-fixed">merece cuidado</span><br/>
+            em cada detalhe.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Na <strong class="text-on-surface font-semibold">Con Te Odontologia Especializada</strong>, você encontra diferentes especialidades da Odontologia reunidas em um só lugar, com atenção meticulosa à sua saúde bucal, tecnologia de ponta e cuidado primoroso em cada etapa do seu tratamento.
+          </p>
+<!-- Integrated Quote Banner -->
+<div class="relative mt-space-sm p-space-md bg-surface-container-low border-l-2 border-secondary shadow-[0_0_24px_-4px_rgba(246,190,57,0.08)]">
+<p class="font-title-sm text-title-sm text-secondary-fixed italic">
+              “Aqui, cuidamos do seu sorriso com excelência, tecnologia e muito carinho!”
+            </p>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm bg-gradient-to-r from-secondary to-primary-fixed text-on-secondary font-label-caps text-label-caps uppercase tracking-wider font-semibold shadow-[0_0_24px_-4px_rgba(246,190,57,0.35)] hover:brightness-110 active:scale-[0.98] transition-all" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">calendar_month</span>
+              Agendar avaliação
+            </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm bg-surface-container-low text-secondary-fixed border border-secondary/40 font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface-container-high hover:border-secondary transition-all" href="#especialidades">
+              Conheça nossas especialidades
+              <span class="material-symbols-outlined text-sm">arrow_downward</span>
+</a>
+</div>
+</div>
+<!-- Metric Stat Block -->
+<div class="lg:col-span-4 flex flex-col gap-space-md bg-surface-container p-space-lg border border-outline-variant/30 shadow-xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Protocolo Exclusivo</span>
+<div class="flex flex-col border-b border-outline-variant/20 pb-space-sm">
+<span class="font-display-hero text-headline-xl text-on-surface">8+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Especialidades clínicas integradas sob o mesmo teto</span>
+</div>
+<div class="flex flex-col border-b border-outline-variant/20 pb-space-sm">
+<span class="font-display-hero text-headline-xl text-on-surface">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Planejamento digital individualizado e humanizado</span>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-lg">verified</span>
+<span class="font-label-regular text-label-regular">Estrutura boutique no Jardim Pilar, Mauá</span>
+</div>
+</div>
+</div>
+<!-- Asymmetrical Photo Mosaic & Architecture -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-stretch mt-space-md">
+<!-- Clinic Atmosphere Photo -->
+<div class="md:col-span-7 relative group overflow-hidden bg-surface-container border border-outline-variant/30 min-h-[380px] flex flex-col justify-end">
+<img class="absolute inset-0 w-full h-full object-cover grayscale-[25%] group-hover:scale-105 group-hover:grayscale-0 transition-transform duration-700 ease-out" data-alt="Luxurious dark architectural dental clinic lobby with dark marble flooring, warm brass cove lighting, modern sculpted furniture, fluted glass divider and tranquil boutique atmosphere" src="assets/images/lobby-marble.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/60 to-transparent"></div>
+<div class="relative p-space-lg z-10 flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Ambientes Sensoriais</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Arquitetura acolhedora pensada para a sua tranquilidade</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-lg">Espaços privativos, aromaterapia sutil, iluminação indireta quente e isolamento acústico refinado para uma experiência livre de tensões.</p>
+</div>
+</div>
+<!-- Humanized Care Concept Photo -->
+<div class="md:col-span-5 relative group overflow-hidden bg-surface-container border border-outline-variant/30 min-h-[380px] flex flex-col justify-end">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="Close up portrait of a confident radiant woman smiling naturally with healthy pristine teeth in warm luxury ambient lighting with dark artistic background" src="assets/images/smile-radiant.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/50 to-transparent"></div>
+<div class="relative p-space-lg z-10 flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Atenção Plena</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Cuidado que respeita seu tempo e sua história</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Diagnósticos detalhados compartilhados com clareza e transparência.</p>
+</div>
+</div>
+</div>
+<!-- 3 Pillar Values & History Area -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface-container-low p-space-lg border-t-2 border-secondary flex flex-col gap-space-sm hover:bg-surface-container transition-colors">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">person_pin</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Atenção Individualizada</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Não acreditamos em tratamentos padronizados. Cada plano terapêutico é esculpido respeitando rigorosamente a biologia, a harmonia facial e as expectativas exclusivas de cada paciente.
+          </p>
+</div>
+<div class="bg-surface-container-low p-space-lg border-t-2 border-secondary flex flex-col gap-space-sm hover:bg-surface-container transition-colors">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Conforto &amp; Tecnologia</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Equipamentos modernos, escaneamentos digitais e biossegurança hospitalar rigorosa proporcionam intervenções precisas, rápidas e com recuperação serena e previsível.
+          </p>
+</div>
+<div class="bg-surface-container-low p-space-lg border-t-2 border-secondary flex flex-col gap-space-sm hover:bg-surface-container transition-colors">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">volunteer_activism</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Cuidado Humanizado</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Nossa vocação é acolher. Uma atmosfera empática e calorosa que ressignifica sua relação com o dentista, transformando consultas em momentos de renovação e bem-estar.
+          </p>
+</div>
+</div>
+<!-- Institutional History Reserved Area -->
+<div class="bg-surface-container p-space-lg border border-outline-variant/30 flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-sm">history_edu</span>
+<span>Espaço Institucional • Con Te Odontologia</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">
+            Nossa trajetória em Mauá nasceu da união entre a paixão pela odontologia restauradora e o desejo de entregar uma experiência incomparável de hospitalidade e confiança a cada família atendida.
+          </p>
+<span class="font-label-regular text-label-regular text-on-surface-variant">Estrutura editorial pronta para validação e enriquecimento histórico pela clínica.</span>
+</div>
+<a class="inline-flex items-center gap-space-xs text-secondary hover:text-primary-fixed font-label-caps text-label-caps uppercase tracking-wider whitespace-nowrap" href="#contato">
+          Visite nosso espaço
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SEÇÃO 2: ESPECIALIDADES
+       ========================================== -->
+<section class="relative w-full bg-surface-container-low py-space-xl border-t border-outline-variant/20" id="especialidades">
+<div class="w-full px-margin-mobile md:px-margin max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md border-b border-outline-variant/30 pb-space-lg">
+<div class="flex flex-col gap-space-xs max-w-2xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em]">CUIDADO INTEGRAL EM UM SÓ LUGAR</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">Oito especialidades dedicadas ao seu bem-estar</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Uma abordagem multidisciplinar completa para transformar sua saúde e estética bucal com precisão milimétrica e delicadeza.</p>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-caps text-label-caps">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span>Corpo Clínico Integrado</span>
+</div>
+</div>
+<!-- 8 Specialty Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- 1. Clínica Geral -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">health_and_safety</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">01 • Fundação</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Clínica Geral</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Prevenção, diagnóstico minucioso, restaurações estéticas e profilaxia periódica para a manutenção contínua da sua saúde bucal diária.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Cl%C3%ADnica+Geral+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 2. Ortodontia -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">architecture</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">02 • Alinhamento</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Ortodontia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Alinhamento dental, correção da oclusão funcional e harmonia estética através de alinhadores transparentes e aparelhos modernos.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Ortodontia+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 3. Implantodontia -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">build_circle</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">03 • Reabilitação</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Implantodontia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Recuperação biomecânica com implantes osseointegráveis de alta precisão, devolvendo segurança mastigatória e naturalidade estética.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Implantodontia+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 4. Endodontia -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">biotech</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">04 • Preservação</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Endodontia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Tratamento de canal microscópico e avançado, eliminando dores e preservando de forma biológica a estrutura dentária natural.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Endodontia+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 5. Periodontia -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">shield</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">05 • Suporte</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Periodontia</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Cuidado especializado dos tecidos gengivais e suporte ósseo, prevenindo inflamações, recessões e garantindo sustentação perfeita.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Periodontia+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 6. Harmonização Orofacial -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">auto_fix_high</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">06 • Simetria</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Harmonização Orofacial</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Sintonia entre sorriso e traços faciais por meio de procedimentos sutis que realçam proporções com elegância e sem exageros.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Harmoniza%C3%A7%C3%A3o+Orofacial+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 7. Odontopediatria -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">sentiment_very_satisfied</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">07 • Infância</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Odontopediatria</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Acolhimento lúdico, afetuoso e pedagógico para que crianças e adolescentes cresçam com hábitos saudáveis e memórias prazerosas.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Odontopediatria+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- 8. Prótese Odontológica -->
+<article class="group bg-surface-container p-space-lg border border-outline-variant/30 hover:border-secondary transition-all duration-300 flex flex-col justify-between hover:shadow-[0_0_28px_-6px_rgba(246,190,57,0.2)]">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 bg-surface-container-high flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined">diamond</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">08 • Escultura</span>
+<h3 class="font-headline-md text-title-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Prótese Odontológica</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Restauração funcional e artística com cerâmicas nobres, facetas, lentes de contato dentais e coroas de extrema fidelidade visual.
+              </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-md border-t border-outline-variant/20">
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary group-hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Pr%C3%B3tese+Odontol%C3%B3gica+na+Con+Te" rel="noopener noreferrer" target="_blank">
+              Conheça os tratamentos
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+<!-- Information Architecture Showcase -->
+<div class="p-space-lg bg-surface-container border border-secondary/30 flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-secondary uppercase">Fluxo Clínico Integrado</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Consulta de Avaliação Multidisciplinar</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-2xl">
+              Em sua primeira visita, realizamos um mapeamento completo da sua cavidade bucal. Caso sua necessidade envolva mais de uma especialidade (ex.: Ortodontia + Implante ou Periodontia + Harmonização), os especialistas atuam de forma coordenada para um tratamento mais assertivo e ágil.
+            </p>
+</div>
+</div>
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-high text-on-surface hover:text-secondary border border-outline-variant/50 hover:border-secondary font-label-caps text-label-caps uppercase whitespace-nowrap transition-all" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+desejo+agendar+minha+avalia%C3%A7%C3%A3o+multidisciplinar" rel="noopener noreferrer" target="_blank">
+          Iniciar meu plano
+          <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SEÇÃO 3: NOSSA EQUIPE
+       ========================================== -->
+<section class="relative w-full bg-surface-container-lowest py-space-xl border-t border-outline-variant/20" id="equipe">
+<div class="w-full px-margin-mobile md:px-margin max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.2em]">CORPO CLÍNICO</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface uppercase">Profissionais dedicados à sua saúde e confiança</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Atendimento acolhedor e multidisciplinar, combinando rigor técnico, capacitação constante e empatia em cada consulta.</p>
+</div>
+<!-- Main Team Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Dra. Glauce Featured Profile Card -->
+<div class="lg:col-span-7 bg-surface-container border border-secondary/40 p-space-lg flex flex-col md:flex-row gap-space-lg relative overflow-hidden shadow-[0_0_32px_-4px_rgba(246,190,57,0.12)]">
+<div class="md:w-1/2 relative flex flex-col min-h-[340px] overflow-hidden bg-surface-container-high border border-outline-variant/30">
+<img class="w-full h-full object-cover" data-alt="Professional studio portrait of an experienced female dentist doctor in dark sophisticated blazer with stethoscope, warm confident expression, dark dramatic photography" src="assets/images/dra-portrait.jpg"/>
+<div class="absolute bottom-2 left-2 right-2 bg-surface-container-lowest/90 backdrop-blur-md px-space-sm py-space-xs border border-secondary/30 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase">Foto de Referência</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-[11px]">(Em atualização)</span>
+</div>
+</div>
+<div class="md:w-1/2 flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Responsável Técnica</span>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Dra. Glauce</h3>
+<span class="font-title-sm text-title-sm text-on-surface-variant">Cirurgiã-Dentista</span>
+</div>
+<!-- CRO and Qualifications structured space -->
+<div class="bg-surface-container-low p-space-sm border border-outline-variant/30 flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-wider">Habilitação Profissional</span>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-sm text-secondary">verified</span>
+<span class="font-body-sm text-body-sm">Registro CRO: Registro Ativo / SP</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-sm">school</span>
+<span class="font-body-sm text-body-sm">Formação Acadêmica &amp; Especializações</span>
+</div>
+<p class="font-label-regular text-label-regular text-on-surface-variant italic">
+                  *Espaço reservado para inserção da titulação oficial e certificados verificados pela clínica.
+                </p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                À frente da clínica Con Te, conduz a prática odontológica com um olhar ético, individualizado e focado no restabelecimento do bem-estar e da autoestima duradoura de cada paciente.
+              </p>
+</div>
+<div class="pt-space-sm border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Atendimento em Mauá</span>
+<a class="inline-flex items-center gap-space-xs font-label-caps text-label-caps text-secondary hover:text-primary-fixed uppercase tracking-wider" href="https://wa.me/5511972044184?text=Ol%C3%A1%2C+gostaria+de+agendar+com+a+Dra.+Glauce" rel="noopener noreferrer" target="_blank">
+                Falar com a equipe
+                <span class="material-symbols-outlined text-sm">chat</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Multidisciplinary Associates Space -->
+<div class="lg:col-span-5 flex flex-col gap-gutter">
+<div class="bg-surface-container p-space-lg border border-outline-variant/30 flex flex-col justify-between flex-1">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Especialistas Parceiros</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-container-high px-space-xs py-0.5">Corpo Clínico</span>
+</div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Odontologia Multidisciplinar Conectada</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Nossos cirurgiões especialistas em Ortodontia, Cirurgias Avançadas, Implantes e Harmonização Orofacial atuam de maneira conjunta nas etapas de alta complexidade.
+              </p>
+</div>
+<div class="grid grid-cols-2 gap-space-sm mt-space-md pt-space-md border-t border-outline-variant/20">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface font-semibold uppercase">Reabilitação Oral</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-xs">Implantes &amp; Próteses</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface font-semibold uppercase">Estética Orofacial</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-xs">Harmonização &amp; Lentes</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md border border-outline-variant/30 flex items-center gap-space-md">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">workspace_premium</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-sm text-body-md text-on-surface font-semibold">Atualização Científica Permanente</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Protocolos e materiais calibrados com a literatura odontológica contemporânea.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SEÇÃO 4: CONTATO E LOCALIZAÇÃO
+       ========================================== -->
+<section class="relative w-full bg-surface-container py-space-xl border-t border-outline-variant/20" id="contato">
+<div class="w-full px-margin-mobile md:px-margin max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs text-center items-center max-w-2xl mx-auto">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-[0.25em]">ESTAMOS ESPERANDO POR VOCÊ</span>
+<h2 class="font-headline-xl text-headline-xl md:text-headline-xl text-on-surface uppercase">Agende sua avaliação e transforme seu sorriso!</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Conecte-se com nossa recepção para esclarecer dúvidas ou agendar uma experiência de cuidado exclusiva.</p>
+</div>
+<!-- Main Contact Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- Clinic Official Details & Big CTA -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-space-lg border border-secondary/30 flex flex-col justify-between gap-space-lg">
+<div class="flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs border-b border-outline-variant/30 pb-space-md">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Informações de Atendimento</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Con Te Odontologia Especializada</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mauá • Região Metropolitana de São Paulo</p>
+</div>
+<!-- Address Box -->
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface font-semibold uppercase">Endereço Oficial</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  R. Biágio Cecon, 13 - Jardim Pilar<br/>
+                  Mauá - SP | CEP: 09370-030
+                </p>
+</div>
+</div>
+<!-- WhatsApp Direct Line -->
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 bg-secondary/10 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface font-semibold uppercase">Central de Agendamento</span>
+<a class="font-title-sm text-title-sm text-secondary hover:text-primary-fixed transition-colors" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+                  (11) 97204-4184
+                </a>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Atendimento por mensagem ou ligação</span>
+</div>
+</div>
+<!-- Operating Hours Layout (Reserved for Official Confirmation) -->
+<div class="p-space-md bg-surface-container border border-outline-variant/20 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-secondary uppercase">Horários de Atendimento</span>
+<span class="font-label-regular text-[10px] text-on-surface-variant uppercase">Sob Consulta</span>
+</div>
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant pt-space-xs border-t border-outline-variant/20">
+<span>Segunda a Sexta-feira:</span>
+<span class="text-on-surface font-medium">Horários agendados</span>
+</div>
+<div class="flex justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Sábados:</span>
+<span class="text-on-surface font-medium">Plantão com agendamento prévio</span>
+</div>
+<span class="font-label-regular text-label-regular text-on-surface-variant italic mt-1">*Quadro estruturado para confirmação formal pela equipe da clínica.</span>
+</div>
+</div>
+<!-- Immediate Action WhatsApp CTA -->
+<a class="w-full flex items-center justify-center gap-space-sm p-space-md bg-gradient-to-r from-secondary to-primary-fixed text-on-secondary font-label-caps text-label-caps uppercase tracking-wider font-semibold shadow-[0_0_32px_-4px_rgba(246,190,57,0.35)] hover:brightness-110 active:scale-[0.99] transition-all" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-lg">chat</span>
+            Conversar pelo WhatsApp
+          </a>
+</div>
+<!-- Real Location Map Panel -->
+<div class="lg:col-span-7 bg-surface-container-lowest border border-outline-variant/30 flex flex-col min-h-[460px] overflow-hidden">
+<div class="p-space-md bg-surface-container border-b border-outline-variant/20 flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-secondary text-base">map</span>
+<span>Localização • R. Biágio Cecon, 13, Mauá - SP</span>
+</div>
+<a class="inline-flex items-center gap-space-xs text-secondary hover:text-primary-fixed font-label-caps text-label-caps uppercase" href="https://www.google.com/maps/search/?api=1&amp;query=R.+Biagio+Cecon,+13+-+Jardim+Pilar,+Maua+-+SP" rel="noopener noreferrer" target="_blank">
+              Abrir no Google Maps
+              <span class="material-symbols-outlined text-xs">launch</span>
+</a>
+</div>
+<!-- Map Surface with static container -->
+<div class="relative flex-1 w-full min-h-[360px] bg-surface-container-high overflow-hidden">
+<div class="w-full h-full bg-cover bg-center filter contrast-125 brightness-90" data-alt="Monochrome dark architectural map view of Jardim Pilar in Maua Sao Paulo showing streets and neighborhood outline in gold and dark tones" data-location="Rua Biagio Cecon 13 Jardim Pilar Maua SP" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVxCeDaXEfQu4x2whDsfQ7CnFxj23qUTAQliOtffF_2fyyBU4kceXSFdvluFFtX715JsbKGP2gmdY1uZBZGRzggKPuxnaEEeOQS2gjw0pzqtfrdHllaD6BvCvpiPe4LBKvw2PxnEi12einZESGyH4lKe9oA5aLXFBoDajNp-1CV2blKUu-c9IkMNYVJATP51p6uV6TM-U_cbEaV_BEwoa_anfmKfgHxt9NBLXOYHme2DFV-Yrkk6N-')">
+</div>
+<!-- Floating Overlay Card with directions pointer -->
+<div class="absolute bottom-space-md left-space-md right-space-md md:right-auto md:max-w-sm bg-surface-container-lowest/95 backdrop-blur-md p-space-md border border-secondary/40 shadow-2xl flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-caps text-label-caps uppercase">
+<span class="material-symbols-outlined text-sm">directions_car</span>
+<span>Fácil Acesso • Mauá</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface leading-tight">
+                Localizada no tranquilo bairro Jardim Pilar, com vagas nas proximidades e acesso facilitado pelas principais vias da cidade.
+              </p>
+<a class="mt-space-xs inline-flex items-center gap-space-xs text-secondary hover:text-primary-fixed font-label-caps text-label-caps uppercase text-[11px]" href="https://www.google.com/maps/search/?api=1&amp;query=R.+Biagio+Cecon,+13+-+Jardim+Pilar,+Maua+-+SP" rel="noopener noreferrer" target="_blank">
+                Calcular rota até a clínica →
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low border-t border-secondary/20 pt-space-xl pb-space-lg"><div class="w-full px-margin"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-space-xl"><div class="md:col-span-5 flex flex-col items-start"><div class="flex items-center gap-space-sm mb-space-md"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="assets/images/logo.png"/><div class="flex flex-col"><span class="font-title-sm text-title-sm tracking-tight text-on-surface uppercase">Con Te</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Odontologia Especializada</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md mb-space-md">Ressignificando a odontologia de alta precisão através da arquitetura sensorial, sofisticação e excelência técnica inegociável.</p></div><div class="md:col-span-3 flex flex-col"><span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-space-md">Navegação</span><nav class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" href="#clinica">A clínica</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" href="#especialidades">Especialidades</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" href="#equipe">Nossa equipe</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" href="#contato">Contato e localização</a></nav></div><div class="md:col-span-4 flex flex-col"><span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest mb-space-md">Atendimento &amp; Endereço</span><div class="flex flex-col gap-space-sm"><p class="font-body-sm text-body-sm text-on-surface-variant">R. Biágio Cecon, 13 - Jardim Pilar<br/>Mauá - SP | CEP: 09370-030</p><a class="font-body-sm text-body-sm text-secondary hover:text-primary-fixed transition-colors inline-flex items-center gap-space-xs mt-space-xs" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-sm">chat</span> WhatsApp: (11) 97204-4184</a></div></div></div><div class="w-full h-px bg-gradient-to-r from-transparent via-secondary/20 to-transparent mb-space-md"></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-label-caps text-label-caps uppercase"><p>© Con Te Odontologia Especializada. Todos os direitos reservados.</p><div class="flex items-center gap-space-md"><a class="hover:text-secondary transition-colors" data-path="politica-de-privacidade" href="#">Política de Privacidade</a><a class="hover:text-secondary transition-colors" data-path="termos-legais" href="#">Termos Legais</a></div></div></div></footer></body></html>
